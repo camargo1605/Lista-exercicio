@@ -12,12 +12,12 @@
 }
 
 .form-container:hover {
-    box-shadow: 0 0 25px rgba(0, 150, 136, 0.5);
+    box-shadow: 0 0 25px rgba(0, 150, 136, 0.3);
     transform: translateY(-5px);
 }
 
 .form-container h2 {
-    color: #00796b;
+    color: rgba(0, 150, 136, 0.3);
     font-size: 24px;
     margin-bottom: 20px;
     text-align: center;
@@ -30,7 +30,7 @@
 
 label {
     font-size: 16px;
-    color: #00796b;
+    color: rgba(0, 150, 136, 0.3);
     margin-bottom: 5px;
     display: block;
 }
@@ -39,9 +39,9 @@ input, select {
     width: 100%;
     padding: 10px;
     border-radius: 8px;
-    border: solid 1px #00796b;
+    border: solid 1px rgba(0, 150, 136, 0.3);
     font-size: 16px;
-    background-color: #000000;
+    background-color: #f8f8f8;
     margin-top: 5px;
 }
 
@@ -49,7 +49,7 @@ button {
     width: 100%;
     padding: 12px;
     background-color: #00796b;
-    color: #ffffff;
+    color: #191919;
     border: none;
     border-radius: 8px;
     cursor: pointer;
